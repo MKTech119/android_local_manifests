@@ -5,7 +5,7 @@
 
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-11.0.0_r37
  
- $ git clone https://github.com/MKTech119/android_local_manifests.git .repo/android_local_manifests -b aarpi4-11
+ $ git clone https://github.com/MKTech119/android_local_manifests.git .repo/android_local_manifests -b mktech-aarpi4-11
  
  $ repo sync
 
