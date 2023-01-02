@@ -4,18 +4,17 @@
   <remote name="mktech" fetch="https://github.com/MKTech119"/>
 
   <remove-project name="platform/frameworks/av"/>
-  <project path="frameworks/av" name="frameworks_av" revision="arpi-11" remote="arpi"/>
-  <remove-project name="platform/frameworks/native"/>
-  <project path="frameworks/native" name="frameworks_native" revision="arpi-11" remote="arpi"/>
+  <project path="frameworks/av" name="frameworks_av" revision="arpi-12" remote="arpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-20.3" remote="arpi"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-22.0" remote="arpi"/>
   
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d-20.3" remote="arpi"/>
+  <remove-project name="platform/external/libdrm"/>
+  <project path="external/libdrm" name="platform/external/libdrm" revision="android-s-v2-beta-3"/>
   
-  <project path="kernel/arpi" name="kernel_arpi" revision="arpi-5.4.y" remote="arpi"/>
-  <project path="hardware/arpi" name="hardware_arpi" revision="arpi-11" remote="arpi"/>
+   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="arpi"/>
+  
+  <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="arpi"/>
 
-
-  <project path="device/mktech/mktech_car_rpi4" name="android_device_mktech_rpi4" revision="mktech-aarpi4-11" remote="mktech"/>
+  <project path="device/mktech/mktech_car_rpi4" name="android_device_mktech_rpi4" revision="mktech-aarpi4-12" remote="mktech"/>
 </manifest>
