@@ -10,6 +10,6 @@
  $ repo sync
 
 # Build for Raspberry Pi 4
- https://github.com/MKTech119/android_device_mktech_rpi4
+ https://github.com/MKTech119/android_device_mktech_rpi4/tree/mktech-aarpi4-11
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
