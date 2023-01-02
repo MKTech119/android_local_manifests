@@ -16,5 +16,5 @@
     <linkfile src="tools" dest="build/tools" />
   </project>  
 
-  <project path="device/mktech/rpi4" name="android_device_mktech_rpi4" revision="aarpi4-13" remote="mktech"/>
+  <project path="device/mktech/mktech_car_rpi4" name="android_device_mktech_rpi4" revision="aarpi4-13" remote="mktech"/>
 </manifest>
