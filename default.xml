@@ -13,8 +13,6 @@
   <project path="external/libdrm" name="platform/external/libdrm" revision="android-s-v2-beta-3"/>
   
    <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="arpi"/>
-  
-  <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="arpi"/>
-
+ 
   <project path="device/mktech/mktech_car_rpi4" name="android_device_mktech_rpi4" revision="mktech-aarpi4-12" remote="mktech"/>
 </manifest>
